@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+git <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
 
   <body>
@@ -13,46 +14,63 @@
       <h1>QUIZ APP</h1>
     </header>
 
-    <main>
-      <!-- QUESTION CARDS -->
+    <main class="question-container">
+
+      <!-- QUESTION CARD1 -->
 
       <section class="card">
         <h2 class="card__heading">What property flips the axes in flexbox?</h2>
-        <button class="card__button-bookmark" aria-label="Save bookmark">
-          📕
+        <button class="card__button--bookmark" aria-label="Save bookmark" data-js="bookmark-button">
+            💙
         </button>
-        <button class="card__button-answer" aria-label="Show Answer">
-          Show Answer
+        <button class="card__button--answer" aria-label="Show Answer" data-js="answer-button">
+          Hide Answer
         </button>
 
-        <span class="card__tag">
-          <i class="tag">&num;html</i>
-          <i class="tag">&num;flexbox</i>
-          <i class="tag">&num;css</i>
+        <!-- answer -->
+
+        <div class="card__answer--hidden" data-js="answer-text">
+          <p>flex-direction</p>
+        </div>
+
+
+        <ul class="card__tag">
+          <li class="tag"><i>&num;html</i></li>
+          <li class="tag"><i>&num;flexbox</i></li>
+          <li class="tag"><i>&num;css</i></li>
         </span>
+
       </section>
+
+      
+      <!-- QUESTION CARD2 -->
+
 
       <section class="card">
         <h2 class="card__heading">Lorem Ipsum dolor sit?</h2>
-        <button class="card__button-bookmark" aria-label="Save bookmark">
-          📕
+        <button class="card__button--bookmark" data-js="card__button--bookmark" aria-label="Save bookmark">
+            💙
         </button>
-        <button class="card__button-answer" aria-label="Show Answer">
+        <button class="card__button--answer" aria-label="Show Answer">
           Show Answer
         </button>
 
-        <span class="card__tag">
-          <i class="tag">&num;html</i>
-          <i class="tag">&num;flexbox</i>
-          <i class="tag">&num;css</i>
+        <ul class="card__tag">
+          <li class="tag"><i>&num;html</i></li>
+          <li class="tag"><i>&num;flexbox</i></li>
+          <li class="tag"><i>&num;css</i></li>
         </span>
       </section>
     </main>
-  </body>
-
+  
+    <footer>
   <nav>
-    <a class="nav__button" href="/index.html" aria-label="Home">🏠</a>
-    <a class="nav__button" href="/bookmarks.html" aria-label="Bookmarks">📕</a>
+    <a class="nav__button" href="/index.html" aria-label="Home">💬</a>
+    <a class="nav__button" href="/bookmarks.html" aria-label="Bookmarks">💛</a>
     <a class="nav__button" href="/profile.html" aria-label="Profile">👤</a>
   </nav>
+    </footer> 
+   
+    
+    </body>
 </html>

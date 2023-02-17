@@ -1,0 +1,46 @@
+.card__button--bookmark {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+
+.card__button--answer {
+  width: 120px;
+  height: 50px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #181e9c;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 0px 0px #0e1369;
+  color: #ffffff;
+}
+
+.card__button--answer:hover {
+  color: var(--highlight);
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.card__button--bookmark:hover {
+  font-size: 350%;
+  transition: 0.1s ease-in-out 0.1s;
+}
+
+.card__button--bookmark:visited {
+  content: "💛";
+  visibility: visible;
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
