@@ -7,17 +7,8 @@ const answer = document.querySelector('[data-js="answer-text"]');
 
 // Toggle visibility of answer-text and button textContent
 
-answerButton.addEventListener("click", () => {
-  if (answerButton.textContent === "Hide Answer") {
-    answerButton.textContent = "Show Answer";
-  } else {
-    answerButton.textContent = "Hide Answer";
-  }
-
-  answer.classList.toggle("card__answer--hidden");
-});
+answerButton.addEventListener("click", () => {});
 
 // Toggle bookmark-backgroundcolor using class
 
-// bookmark1.addEventListener("click", () => {
-// });
+bookmark.addEventListener("click", () => {});
