@@ -1,0 +1,33 @@
+:root {
+  --primary: #3039dc;
+  --secondary: #ff4a11;
+  --secondary-light: #ffe6005c;
+  --highlight: yellow;
+  --white: #ffffff;
+  --black: #252629;
+  --fs-200: 0.6rem;
+  --fs-300: 0.8rem;
+  --fs-400: 1rem;
+  --fs-500: 1.1rem;
+  --fs-600: 1.5rem;
+  --fs-900: 1.75rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary-light);
+  display: flex;
+  flex-direction: column;
+  margin-block: 10px 20px;
+  writing-mode: horizontal-tb;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  margin: 50px 0 60px 0;
+}

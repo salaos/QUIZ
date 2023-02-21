@@ -1,0 +1,27 @@
+nav {
+  background: var(--primary);
+  color: var(--black);
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0.8em;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: #252629;
+  box-shadow: -1px -1px 20px 20px #181f9c5e;
+}
+
+.nav__button {
+  background-color: transparent;
+  border: transparent;
+  font-size: 40px;
+}
+
+.nav__button:hover {
+  font-size: 280%;
+  transition: 0.1s ease-in-out 0.1s;
+}

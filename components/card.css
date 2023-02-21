@@ -1,0 +1,38 @@
+.card {
+  background-color: var(--primary);
+  scroll-margin-top: 100px;
+  text-align: center;
+  box-shadow: 10px 10px 0px 0px #181e9c;
+  display: flex;
+  flex-direction: column;
+  margin: 45px;
+  padding: 30px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.card__tag {
+  padding: 10px;
+  list-style: none;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+.card:hover {
+  color: blue;
+}
+
+.tag {
+  border: transparent;
+  color: #ffffff;
+  display: inline;
+  list-style-type: none;
+}
+
+/* .question-container {
+} */
